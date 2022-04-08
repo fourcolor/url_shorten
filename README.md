@@ -5,15 +5,11 @@
 * golang
 ## Usage
 ### Setup
-1. 進到 repo 並將backend pull下來
-```
-git clone git@github.com:fourcolor/backend.git
-```
-2. 由於有使用到redis因此用docker-compose快速建立
+1. 由於有使用到redis因此用docker-compose快速建立
 ```
 docker-compose up -d --build
 ```
-3. 開啟 backend
+2. 開啟 backend
 ```
 $ cd backend/
 $ sudo go run src/app.go
